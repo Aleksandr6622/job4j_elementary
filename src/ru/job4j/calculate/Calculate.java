@@ -6,6 +6,10 @@ public class Calculate {
         int two =2;
         int onePlustwo = one + two ;
         System.out.println(onePlustwo);
+        int ten =10;
+        int eleven =11;
+        int tenPluseleven = ten + eleven;
+        System.out.println(tenPluseleven);
     }
 
 }
