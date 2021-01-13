@@ -1,6 +1,6 @@
 package ru.job4j.calculate;
 
-public class variables {
+public class Variables {
     public static void main(String[] args) {
         byte mem = 1;
         System.out.println(mem);
