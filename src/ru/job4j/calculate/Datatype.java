@@ -6,8 +6,8 @@ public class Datatype {
         System.out.println(age);
         char gender = 'm';
         System.out.println(gender);
-        float mansheight = 170;
-        System.out.println(mansheight);
+        float growth = 170;
+        System.out.println(growth);
         short redbrick = 32000;
         System.out.println(redbrick);
         long numberofbacteria =10000;
