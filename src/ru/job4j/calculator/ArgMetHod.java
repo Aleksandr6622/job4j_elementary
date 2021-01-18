@@ -5,7 +5,7 @@ public class ArgMetHod {
         System.out.println("Hello,"+ name);
     }
     public static void main(String[] args) {
-        String name = "Aleksandr Gorbachewsky";
+        String name = "Aleksandr Gorbachewsky ";
         int age = 20;
         ArgMetHod.hello("");
         System.out.println();
