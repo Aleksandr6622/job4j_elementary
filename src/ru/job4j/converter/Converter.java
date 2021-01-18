@@ -11,9 +11,10 @@ public class Converter {
         return rsl ;
     }
     public static void main(String[] args) {
-        int euro = Converter.rubleToEuro(70);
-        System.out.println("140 rubles are " + euro + " euro." );
-        int dollar = Converter.rubleToDollar(60);
-        System.out.println("120 rubles are" + dollar + "dollar.");
+        int rub =1000;
+        int euro = Converter.rubleToEuro(rub);
+        System.out.println(Integer.toString(rub)+"rubles are " + euro + " euro." );
+        int dollar = Converter.rubleToDollar(rub);
+        System.out.println(Integer.toString(rub)+"rubles are" + dollar + "dollar.");
     }
 }
