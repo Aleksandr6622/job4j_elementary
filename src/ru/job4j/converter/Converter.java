@@ -13,8 +13,8 @@ public class Converter {
     public static void main(String[] args) {
         int rub =1000;
         int euro = Converter.rubleToEuro(rub);
-        System.out.println(Integer.toString(rub)+"rubles are " + euro + " euro." );
+        System.out.println(Integer.toString(rub) + " rubles are " + euro + " euro." );
         int dollar = Converter.rubleToDollar(rub);
-        System.out.println(Integer.toString(rub)+"rubles are" + dollar + "dollar.");
+        System.out.println(Integer.toString(rub) + " rubles are " + dollar + " dollar.");
     }
 }
