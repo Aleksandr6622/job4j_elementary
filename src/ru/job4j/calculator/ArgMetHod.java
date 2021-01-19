@@ -8,13 +8,9 @@ public class ArgMetHod {
         String name = "Aleksandr Gorbachewsky ";
         int age = 20;
         ArgMetHod.hello("");
-        System.out.println();
         ArgMetHod.hello(name+age);
-        System.out.println();
         ArgMetHod.hello(Integer.toString( age));
-        System.out.println();
         ArgMetHod.hello(name+name+name);
-        System.out.println();
 
     }
 }
